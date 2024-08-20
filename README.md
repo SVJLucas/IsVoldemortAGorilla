@@ -19,7 +19,7 @@ In 2015, Google faced a significant controversy with its photo tagging service w
 
 In response to the backlash, Google took immediate action by disabling the terms "gorilla," "chimp," "chimpanzee," and "monkey" in its image categorization algorithms to prevent further offensive misclassifications. This workaround, however, underscored a deeper, systemic problem within the tech industry: the need for more inclusive and comprehensive training datasets. The fallout from this incident has prompted a wider discussion about the responsibilities of tech companies in ensuring their AI systems are fair and non-discriminatory. It also sparked an ongoing debate about the need for regulatory oversight to manage the ethical implications of AI technologies, emphasizing that technological advancement should not come at the cost of social equity and justice.
 
-## Evaluating Supervised Learning Models in Google Technologies
+## Evaluating Supervised Learning Models in Convolutional Neural Networks
 
 To explore the abilities and limitations of supervised learning models within Google's AI technology, we'll specifically examine the ResNet-50 architecture, a popular choice for image classification tasks. Our focus will be to understand how changing specific layers within the model can impact its classification accuracy and potential biases. For this purpose, we will modify ResNet-50 by freezing its initial layers while altering the last layer to distinguish only between two categories: human and gorilla.
 
@@ -28,8 +28,19 @@ To explore the abilities and limitations of supervised learning models within Go
 #### Architecture of ResNet-50
 ResNet-50 is a convolutional neural network (CNN) that is 50 layers deep and typically used for large-scale image recognition. It utilizes residual learning (skip connections) to help in training deeper networks without the problem of vanishing gradients.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3dcee523-1b3b-494f-846d-c6e806a1c2b1" alt="Resnet" width="400px"/>
+</p>
+
+
+
 #### Model Adaptation
-For our experiment, the model's initial convolutional and identity blocks will be frozen. These layers have already learned general features like edges and textures from extensive pre-training, usually on ImageNet, a dataset with over a million images of 1000 categories. We will replace the final fully connected layer of the model to output two classes: 'human' and 'gorilla'. This alteration tailors the model to our specific use-case of differentiating between these two categories.
+For our experiment, the model's initial convolutional and identity blocks will be frozen. These layers have already learned general features like edges and textures from extensive pre-training, on ImageNet, a dataset with over a million images of 1000 categories. We will replace the final fully connected layer of the model to output two classes: 'human' and 'gorilla'. This alteration tailors the model to our specific use-case of differentiating between these two categories.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b9a0a8cb-f142-4dd5-9347-fd9efe2a750e" alt="Resnet" width="400px"/>
+</p>
+
 
 #### Training Dataset
 We will use the Caltech 256 dataset, a well-known collection that provides a diverse set of images across 256 categories. For our purpose, we'll focus on the 'people' and 'gorilla' categories. This choice is intentional to probe how well a model trained on potentially biased data can adapt to accurately categorize images without mislabeling.
