@@ -45,6 +45,11 @@ For our experiment, the model's initial convolutional and identity blocks will b
 #### Training Dataset
 We will use the Caltech 256 dataset, a well-known collection that provides a diverse set of images across 256 categories. For our purpose, we'll focus on the 'people' and 'gorilla' categories. This choice is intentional to probe how well a model trained on potentially biased data can adapt to accurately categorize images without mislabeling.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3cd50099-fa78-4cf9-a048-c1bac8f59c0c" alt="Caltech" width="600px"/>
+</p>
+
+
 ### Analyzing Model Decisions with SHAP Values
 
 #### Understanding SHAP Values
