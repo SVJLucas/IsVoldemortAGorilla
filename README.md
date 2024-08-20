@@ -71,18 +71,35 @@ The findings from this experiment will contribute to a deeper understanding of h
 
 ## Pattern Comprehension
 
+### Are Gorillas Gorillas?
+
+
+### Are Humans Gorillas?
+
 <p align="center">
 <img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/c956ae98-370f-45e9-b740-370d4ef1fb25">
 </p>
 
 
 <p align="center">
-<img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/6ea7d6ed-5e3e-41b0-83df-0929b983331e">
+<img width="700" alt="SHAP 2" src="https://github.com/user-attachments/assets/6ea7d6ed-5e3e-41b0-83df-0929b983331e">
 </p>
 
 <p align="center">
-<img width="700" alt="SHAP 2" src="https://github.com/user-attachments/assets/2cf04fed-389a-4e65-9161-dd94bc3004af">
+<img width="700" alt="SHAP 3" src="https://github.com/user-attachments/assets/2cf04fed-389a-4e65-9161-dd94bc3004af">
 </p>
+
+### Are forest Gorillas?
+
+
+<p align="center">
+<img width="700" alt="SHAP 2" src="https://github.com/user-attachments/assets/6daf011b-a170-4c91-aea0-4cd863f3dc2f">
+</p>
+
+<p align="center">
+<img width="700" alt="SHAP 2" src="https://github.com/user-attachments/assets/1b364c88-f5f4-428b-ab33-394b4fff4061">
+</p>
+
 
 
 ### Is Voldemort a Gorilla?
@@ -94,6 +111,19 @@ The findings from this experiment will contribute to a deeper understanding of h
 <p align="center">
 <img width="700" alt="SHAP 4" src="https://github.com/user-attachments/assets/5bf6e5a5-738b-4505-89b0-5514d48464e5">
 </p>
+
+<p align="center">
+<img width="700" alt="SHAP 5" src="https://github.com/user-attachments/assets/0977aec2-0d85-4a64-9f5e-6b24ff54cce0">
+</p>
+
+
+<p align="center">
+<img width="700" alt="SHAP 6" src="https://github.com/user-attachments/assets/0d63675d-eeaa-4f8e-a563-205443128773">
+</p>
+
+
+
+
 
 
 
