@@ -55,6 +55,10 @@ We will use the Caltech 256 dataset, a well-known collection that provides a div
 #### Understanding SHAP Values
 SHAP (SHapley Additive exPlanations) values are a method to explain the output of machine learning models. They measure the impact of each feature on the prediction, providing a detailed view into how each input variable contributes to the final decision.
 
+<p align="center">
+<img width="488" alt="Screenshot 2024-08-20 at 02 22 43" src="https://github.com/user-attachments/assets/80fa0a7e-3889-49fe-919c-d1b64872701b">
+</p>
+
 #### Application to Image Classification
 By applying SHAP values to our adapted ResNet-50 model, we aim to dissect the reasons behind the model's decisions. This analysis will help us identify what features or patterns in the images lead to potential misclassifications. For instance, if the model consistently mislabels humans as gorillas, SHAP values can help pinpoint whether specific facial features, skin tones, or background elements are influencing these errors.
 
