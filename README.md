@@ -69,14 +69,36 @@ This experiment is not just a technical exercise but also a critical inquiry int
 The findings from this experiment will contribute to a deeper understanding of how supervised models can be fine-tuned and scrutinized for biases, especially in sensitive applications like facial recognition. This knowledge is essential for guiding future developments in AI, ensuring they are aligned with ethical standards and societal values.
 
 
+## Pattern Comprehension
+
+<p align="center">
+<img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/c956ae98-370f-45e9-b740-370d4ef1fb25">
+</p>
+
+
 <p align="center">
 <img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/6ea7d6ed-5e3e-41b0-83df-0929b983331e">
 </p>
 
-
-
 <p align="center">
 <img width="700" alt="SHAP 2" src="https://github.com/user-attachments/assets/2cf04fed-389a-4e65-9161-dd94bc3004af">
 </p>
+
+
+### Is Voldemort a Gorilla?
+
+<p align="center">
+<img width="700" alt="SHAP 3" src="https://github.com/user-attachments/assets/f84f8885-748e-4896-b863-b0a2996cacdb">
+</p>
+
+<p align="center">
+<img width="700" alt="SHAP 4" src="https://github.com/user-attachments/assets/5bf6e5a5-738b-4505-89b0-5514d48464e5">
+</p>
+
+
+
+
+
+
 
 
