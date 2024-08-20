@@ -74,6 +74,21 @@ The findings from this experiment will contribute to a deeper understanding of h
 ### Are Gorillas Gorillas?
 
 
+
+
+
+<p align="center">
+<img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/e2a4b0d2-7bdf-4ec1-adfe-f837c3bca1aa">
+</p>
+
+
+
+<p align="center">
+<img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/691bb2d1-af67-4832-8bf8-f60371d7980d">
+</p>
+
+
+
 ### Are Humans Gorillas?
 
 <p align="center">
