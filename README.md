@@ -67,3 +67,16 @@ By applying SHAP values to our adapted ResNet-50 model, we aim to dissect the re
 This experiment is not just a technical exercise but also a critical inquiry into the ethical implications of machine learning. Understanding why an AI system makes certain decisions is crucial for developing fair and unbiased technologies. By investigating and potentially mitigating these biases, we can help ensure that AI systems serve all sections of society equitably, avoiding harmful stereotypes that could perpetuate racial discrimination.
 
 The findings from this experiment will contribute to a deeper understanding of how supervised models can be fine-tuned and scrutinized for biases, especially in sensitive applications like facial recognition. This knowledge is essential for guiding future developments in AI, ensuring they are aligned with ethical standards and societal values.
+
+
+<p align="center">
+<img width="700" alt="SHAP 1" src="https://github.com/user-attachments/assets/6ea7d6ed-5e3e-41b0-83df-0929b983331e">
+</p>
+
+
+
+<p align="center">
+<img width="700" alt="SHAP 2" src="https://github.com/user-attachments/assets/2cf04fed-389a-4e65-9161-dd94bc3004af">
+</p>
+
+
